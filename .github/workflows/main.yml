@@ -10,8 +10,8 @@ jobs:
 
     # ←★ ここにまとめて書くと Build も Deploy も使える
     env:
-      NEXT_PUBLIC_MICROCMS_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
-      NEXT_PUBLIC_MICROCMS_API_KEY: ${{ secrets.MICROCMS_API_KEY }}
+      NEXT_PUBLIC_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
+      NEXT_PUBLIC_API_KEY: ${{ secrets.MICROCMS_API_KEY }}
       AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
 
